@@ -3,117 +3,257 @@
 <head>
 	<meta charset="utf-8">
 	
-	<title>HTML5 Bones :: PAGE TITLE</title>
+	<title>chrisstrelioff.ws</title>
 	
 	<!-- Enter a brief description of your page -->
-	<meta name="description" content="">
+	<meta name="description" content="Christopher Strelioff's website">
+	<meta name="keywords" content="Chris, Christopher, Strelioff, physics, python, Bayesian, machine learning">
+	<meta name="author" content="Christopher Strelioff">
 	
-	<!-- Define a viewport to mobile devices to use - telling the browser to assume that the page is as wide as the device (width=device-width) and setting the initial page zoom level to be 1 (initial-scale=1.0) -->
+	<!-- Define a viewport to mobile devices to use - telling the browser to
+     assume that the page is as wide as the device (width=device-width) and
+     setting the initial page zoom level to be 1 (initial-scale=1.0) -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<!-- Add normalize.css which enables browsers to render all elements more consistently and in line with modern standards as it only targets particular styles that need normalizing -->
+	<!-- Add normalize.css which enables browsers to render all elements more
+     consistently and in line with modern standards as it only targets
+     particular styles that need normalizing -->
 	<link href="css/normalize.css" rel="stylesheet" media="all">
-	<!-- For legacy support (IE 6/7, Firefox < 4, and Safari < 5) use normalize-legacy.css instead -->
+	<!-- For legacy support (IE 6/7, Firefox < 4, and Safari < 5) use
+     normalize-legacy.css instead -->
 	<!--<link href="css/normalize-legacy.css" rel="stylesheet" media="all">-->
 	
 	<!-- Include the site stylesheet -->
 	<link href="css/styles.css" rel="stylesheet" media="all">
 	
-	<!-- Include the HTML5 shiv print polyfill for Internet Explorer browsers 8 and below -->
+	<!-- Include the HTML5 shiv print polyfill for Internet Explorer browsers 8
+     and below -->
 	<!--[if lt IE 9]><script src="js/html5shiv-printshiv.js" media="all"></script><![endif]-->
+
+    <!-- add font-awesoeme -->
+    <link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">
+
 </head>
 <body>
 
-	<!-- The page header typically contains items such as your site heading, logo and possibly the main site navigation -->
 	<!-- ARIA: the landmark role "banner" is set as it is the prime heading or internal title of the page --> 
 	<header role="banner">
 	
-		<h1><abbr title="HyperText Markup Language 5">HTML5</abbr> Bones</h1>
+		<h1>chrisstrelioff.ws</h1>
 		
-		<!-- ARIA: the landmark role "navigation" is added here as the element contains site navigation
-		NOTE: The <nav> element does not have to be contained within a <header> element, even though the two examples on this page are. -->
+		<!-- ARIA: the landmark role "navigation" is added here as the element
+         contains site navigation
+		 NOTE: The <nav> element does not have to be contained within a
+         <header> element, even though the two examples on this page are. -->
 		<nav role="navigation">
-			<!-- This can contain your site navigation either in an unordered list or even a paragraph that contains links that allow users to navigate your site -->			
+            <ul>
+                <li><a href="#about">about me</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#publications">publications</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
 		</nav>
-		
 	</header>
 	
-	<!-- If you want to use an element as a wrapper, i.e. for styling only, then <div> is still the element to use -->
+	<!-- If you want to use an element as a wrapper, i.e. for styling only,
+     then <div> is still the element to use -->
 	<div class="wrap">
 	
-		<!-- The <main> element is used to enclose the main content, i.e. that which contains the central topic of a document -->
-		<!-- ARIA: the landmark role "main" is added here as it contains the main content of the document, and it is recommended to add it to the
-		<main> element until user agents implement the required role mapping. -->
+		<!-- The <main> element is used to enclose the main content, i.e. that
+         which contains the central topic of a document -->
+		<!-- ARIA: the landmark role "main" is added here as it contains the
+         main content of the document, and it is recommended to add it to the
+		 <main> element until user agents implement the required role
+         mapping. -->
 		<main role="main">
 	
-			<!-- The <section> element can be used to enclose content that comes under a related heading. 
-			NOTE: The <section> element can contain <article> elements and vice versa, if you think the content warrants it. -->		
-			<section>
+			<!-- The <section> element can be used to enclose content that
+             comes under a related heading. 
+			 NOTE: The <section> element can contain <article> elements and vice
+             versa, if you think the content warrants it. -->		
+			<section id="about">
 			
-				<!-- This is the section's header. It contains the heading and navigation links for within the section -->
+				<!-- This is the section's header. It contains the heading and
+                 navigation links for within the section -->
 				<header>
-					<h2>Getting Started</h2>
-					<!-- ARIA: the landmark role "navigation" is added here as the element contains page navigation -->
-					<nav role="navigation">
-						<ul>
-							<li><a href="#introduction">Introduction</a></li>
-							<li><a href="#instructions">Instructions</a></li>
-						</ul>
-					</nav>
+					<h2>about me</h2>
 				</header>
 				
-				<!-- The <article> element can be used to enclose content that still makes sense on its own and is therefore "reusable" -->
-				<article id="introduction">
+				<!-- The <article> element can be used to enclose content that
+                 still makes sense on its own and is therefore "reusable" -->
+				<article>
 				
-					<!-- A <header> element is not required here as the heading only contains a single <h3> element -->				
-					<h3>Introduction</h3>
-					
-					<!-- Content -->
-					<p>Welcome to <abbr title="HyperText Markup Language 5">HTML5</abbr> Bones. This is a template that contains comments to aid you with setting up your <abbr title="HyperText Markup Language 5">HTML5</abbr> document.</p>
+                <p>
+                I love to learn and to figure things out. By training I am a
+                physicist, but I have worked on projects in many domains. For
+                this work I have developed mathematical and statistical models,
+                typically implemented in <strong>python</strong> or
+                <strong>R</strong>.
+                </p>
+
+                <p>
+                I now live in Oakland, CA and would like to move into the tech
+                industry as a <strong>data scientist</strong> or
+                <strong>analyst</strong>. I know that I will enjoy applying my
+                scientific, statistical, programming and communication skills
+                to new and interesting problems.
+                </p>
+
+                <p>
+                <strong>Are you looking for someone like me?</strong> Don't be
+                shy, <a href=#contact>drop me a note</a>.
+                </p>
 					
 				</article>
 				
-				<!-- The <article> element can be used to enclose content that still makes sense on its own and is therefore "reusable" -->
-				<article id="instructions">
-				
-					<!-- A <header> element is not required here as the heading only contains a single <h3> element -->	
-					<h3>Instructions</h3>
-					
-					<!-- Content -->
-					<ol>
-						<li>Read the comments in this template</li>
-						<li>Decide how you think your content may fit into the template</li>
-						<li>Start building your document</li>
-					</ol>
-					
-				</article>
-				
-			</section>
+			</section> <!-- end about -->
+
+            <section id="projects">
+
+                <header>
+                    <h2>projects</h2>
+                </header>
+
+            </section> <!-- end projects -->
+
+            <section id="publications">
+
+				<header>
+					<h2>publications</h2>
+				</header>
+
+                <article id="bsihp">
+
+                <p>
+                <strong>Bayesian structural inference for hidden processes</strong><br />
+                Christopher C. Strelioff and James P. Crutchfield. 2014.
+                <em>Physical Review E</em>. 89:042119.
+                </p>
+
+                <p>
+                <!-- journal -->
+                <a target="_blank" href="http://dx.doi.org/10.1103/PhysRevE.89.042119" 
+                title="Link to abstract at Phys Rev E.">
+                <i class="fa fa-external-link-square fa-lg"></i> journal </a>
+                <!-- pdf -->
+                <a target="_blank" href="documents/StrelioffCrutchfield2014.pdf" title="Click for PDF">
+                <i class="fa fa-file-pdf-o fa-lg"></i> pdf </a>  
+                <!-- supp -->
+                <a target="_blank" href="documents/StrelioffCrutchfield2014-supp.pdf" title="Supplementary information">
+                <i class="fa fa-file-pdf-o fa-lg"></i> supp </a>
+                </p>
+                <p>
+                <!-- arxiv preprint -->
+                <a target="_blank" href="http://arxiv.org/abs/1309.1392" title="Preprint on arxiv.org">
+                <i class="fa fa-external-link-square fa-lg"></i> arxiv </a>
+                <!-- sfi working paper -->
+                <a target="_blank" href="http://www.santafe.edu/research/working-papers/abstract/ebc3ff6d3bcc2798f01a53d70f668d05/" title="Santa Fe Institute working paper">
+                <i class="fa fa-external-link-square fa-lg"></i> SFI </a>
+                </p>
+
+                </article> <!-- end bsihp -->
+
+                <article id="ipit">
+                <p>
+                <strong>Inferring patterns of influenza transmission
+                in swine from multiple streams of surveillance data</strong><br />
+                CC Strelioff, D Vijaykrishna, S Riley, Y Guan,
+                JSM Peiris, JO Lloyd-Smith. 2013.
+                <em>Proceedings of the Royal Society B</em> 280 (1762)
+                </p>
+
+                <p>
+                <!-- journal -->
+                <a target="_blank" href="http://dx.doi.org/10.1098/rspb.2013.0872" 
+                title="Link to abstract at Proc Roy Soc B.">
+                <i class="fa fa-external-link-square fa-lg"></i> journal </a>
+                <!-- pdf -->
+                <a target="_blank" href="documents/Strelioffetal2013.pdf" title="Click for PDF">
+                <i class="fa fa-file-pdf-o fa-lg"></i> pdf </a>  
+                <!-- supp -->
+                <a target="_blank" href="documents/Strelioffetal2013-supp.pdf" title="Supplementary information">
+                <i class="fa fa-file-pdf-o fa-lg"></i> supp </a><br />
+                </p>
+
+                </article> <!-- end ipit -->
+
+                <article id="hyena">
+                <p>
+                <strong>Society, demography and genetic structure in the spotted hyena</strong><br />
+                Kay E. Holekamp, Jennifer E. Smith,
+                Christopher C. Strelioff, Russell C. Van Horn, and
+                Heather E. Watts. 2012.
+                <em>Molecular Ecology</em> 21:613-632.
+                </p>
+
+                <p>
+                <!-- journal -->
+                <a target="_blank" href="http://dx.doi.org/10.1111/j.1365-294X.2011.05240.x" 
+                title="Link to abstract at Molecular Ecology.">
+                <i class="fa fa-external-link-square fa-lg"></i> journal </a>
+                <!-- pdf -->
+                <a target="_blank" href="documents/Holekampetal2012.pdf" title="Click for PDF">
+                <i class="fa fa-file-pdf-o fa-lg"></i> pdf </a>
+                <!-- supp -->
+                <a target="_blank" href="http://dx.doi.org/10.5061/dryad.tg582" title="Supplementary information">
+                <i class="fa fa-external-link-square fa-lg"></i> supp </a>
+                </p>
+
+                </article>
+
+            </section> <!-- end publications -->
+
+            <section id="contact">
+
+				<header>
+					<h2>contact me</h2>
+				</header>
+
+                <p>
+                You can email me at 
+                <script type="text/javascript" language="javascript">
+                <!--
+                // Email obfuscator script 2.1 by Tim Williams, University of Arizona
+                // Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+                // This code is freeware provided these four comment lines remain intact
+                // A wizard to generate this code is at http://www.jottings.com/obfuscator/
+                { coded = "kACmj.j3CMSm0vv@HDgmS.k0D"
+                key = "mlKhrk3OW9w4TngRQ0UGE1jvMDS6ACZxd5y8Bi7HbuctJqLIVzXaYFo2pPNsfe"
+                shift=coded.length
+                link=""
+                for (i=0; i<coded.length; i++) {
+                    if (key.indexOf(coded.charAt(i))==-1) {
+                    ltr = coded.charAt(i)
+                    link += (ltr)
+                }
+                else {     
+                    ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+                    link += (key.charAt(ltr))
+                    }
+                }   
+                document.write("<strong>" + link + "</strong>.")
+                }
+                //-->
+                </script><noscript>Sorry, you need Javascript on to email me.</noscript>
+                </p>
+
+            </section> <!-- end contact -->
 			
 		</main>
 		
-		<!-- An <aside> is used to enclose content that is additional to the main content but not essential. If it were removed, the meaning of the main content should not be lost, but the content of the <aside> also retains its meaning.
-		NOTE: the aside is placed outside of the <main> element as while its content is related to the content that is within the <main>
-		element, it is not part of it -->
-		<!-- ARIA: the landmark role "complementary" is added here as it contains supporting information for the main content that remains meaningful even when separated from it -->
-		<aside role="complementary">
-		
-			<!-- A <header> element is not required here as the heading only contains a single <h3> element -->	
-			<h3>Did you know?</h3>
-			
-			<!-- Content -->
-			<p>The article and section elements cause a lot of confusion when people are trying to decide how and when to use them. The article: <a href="http://www.iandevlin.com/blog/2011/04/html5/html5-section-or-article">section or article?</a> might help you choose.</p>
-			
-		</aside>
-		
 	</div>
 	
-	<!-- The main page footer can contain items such as copyright and contact information. It can also contain a duplicated navigation of your site which is not usually contained within a <nav> -->
-	<!-- ARIA: the landmark role "contentinfo" is added here as it contains metadata that applies to the parent document -->
+	<!-- The main page footer can contain items such as copyright and contact
+     information. It can also contain a duplicated navigation of your site
+     which is not usually contained within a <nav> -->
+	<!-- ARIA: the landmark role "contentinfo" is added here as it contains
+     metadata that applies to the parent document -->
 	<footer role="contentinfo">
 	
-		<!-- Copyright information can be contained within the <small> element. The <time> element is used here to indicate that the '2013' is a date -->
-		<small>Copyright &copy; <time datetime="2014">2014</time></small>
+		<!-- Copyright information can be contained within the <small> element.
+         The <time> element is used here to indicate that the '2013' is a
+         date -->
+		<small>Copyright &copy; <time datetime="2014">2014</time> Christopher Strelioff</small>
 		
 	</footer>
 	
