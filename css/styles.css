@@ -8,20 +8,54 @@
    
 	}
 	/* Default link styling */
-	a:link { color:#0271fb; }
-	a:visited { color:#bd02fb; }
-	a:hover, a:focus { color:#000; }
-	a:active { color:#fb0e02; }
-	
-	
+	a:link {
+        color:#5E8C6A;
+        text-decoration:none;
+        font-weight:bold;
+    }
+	a:visited {
+        color:#5E8C6A;
+        text-decoration:none;
+    }
+	a:hover, a:focus {
+        color:#88A65E;
+        text-decoration:none;
+    }
+	a:active {
+        color:#5E8C6A;
+        text-decoration:none;
+    }
 	
 /* ---------------------------------------------------------
    Author's styles
    ---------------------------------------------------------*/
 	body {
-   
+        padding:20px;
+        background-color:#FFFFFF;
 	}
+    section {
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+    header {
+    }
+    header h2 {
+        color:#837B47;
+        font-weight:bold;
+    }
+    article {
+        padding-top:10px;
+    }
 
+/* --------------------------------------------------------------
+   Try dynamic sizing of h1
+   -------------------------------------------------------------*/
+
+    @media only screen and (max-width: 320px) {
+        h1 { 
+            font-size:9vw; 
+        }
+    }
 
 	
 /* ---------------------------------------------------------
