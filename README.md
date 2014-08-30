@@ -3,5 +3,9 @@ chrisstrelioffws
 
 Files for my website http://chrisstrelioff.ws  -- take a look.
 
-Uses the html5bones template: https://github.com/iandevlin/html5bones
+Uses: 
+
+* bootstrap: https://github.com/twbs/bootstrap
+* font awesome: https://github.com/FortAwesome/Font-Awesome
+* lavish-bootstrap: http://www.lavishbootstrap.com/
 
