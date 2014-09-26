@@ -3,4 +3,8 @@ body {
     padding-top: 70px;
 }
 
-
+.spaced {
+    padding-top: 50px;
+    padding-bottom:50px;
+    min-height: 100px;
+}

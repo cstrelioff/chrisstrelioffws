@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Chris Strelioff's website">
+    <meta name="description" content="Chris Strelioff's website including projects, publications and more.">
     <meta name="author" content="Christopher Strelioff">
     <meta name="keywords" content="Christopher, Chris, Strelioff, python, R, Bayesian, data science, machine learning">
     <link rel="icon" href="../../favicon.ico">
@@ -17,10 +17,11 @@
     <!-- Custom styles for this template -->
     <link href="css/navbar-fixed-top.css" rel="stylesheet">
     
-    <!-- add lavish colorings -->
+    <!-- add lavish colorings 
     <link href="css/lavish-bootstrap.css" rel="stylesheet">
+    -->
     
-    <!-- add font-awesoeme -->
+    <!-- add font-awesome -->
     <link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -63,41 +64,106 @@
      Start - container
     -->
     <div class="container">
+   
+    <!-- LANDING -->
+    <div class="row">
+      <div class="col-xs-10 col-xs-offset-2 col-sm-4 col-sm-offset-8 pull-left" style="padding=2em;">
+        <img src="http://www.gravatar.com/avatar/ad9e84bd2b2c0f440e73b7edf64951fc?s=160" alt="A picture of me." />
+      </div>
+    </div><!-- END LANDING -->
 
     <!-- ABOUT ME -->
-    <h1 id="about"><i class="fa fa-male"></i> about me</h1><br /><br />
+    <div class="spaced">
+    <h1 id="about">about me</h1><br /><br />
 
       <div class="row">
         <div class="col-xs-12">
             <p>
-            I love to learn and to figure things out. By training I am a
-            physicist, but I have worked on projects in many domains. For
-            this work I have developed mathematical and statistical models,
-            typically implemented in <strong>python</strong> or
-            <strong>R</strong>.
+            A physicist by training, I have substantial experience applying
+            scientific reasoning, mathematical manipulation, programming chops
+            and statistical thinking to problems in many areas. Take a look at
+            my <a href="#projects">projects</a> and
+            <a href="#publications">publications</a> to get a
+            sense of what I've done in the past and how I'm keeping myself busy
+            at the moment -- I've just finished the
+            <a target="_blank" title="Link to Intro to Machine Learning" href="https://www.coursera.org/course/ml">Introduction to Machine Learning</a>
+            and
+            <a target="_blank" title="Link to Intro to Data Science" href="https://www.coursera.org/course/datasci">Introduction to Data Science</a>
+            classes at <a target="_blank"  title="Link to Coursera" href="http://www.coursera.org">Coursera</a>.
+            These classes were interesting, allowing me to compare machine
+            learning views of statistical inference to the Bayesian and Frequentist
+            approaches that I already know quite well. In addition, I was able to
+            spend some time playing around with analyzing Twitter feeds (Python),
+            SQL, map reduce (Python), pig/hadoop on AWS, visualizations with
+            Tableau, machine learning (Octave,R), etc.
             </p>
 
             <p>
             I now live in Oakland, CA and would like to move into the tech
-            industry as a <strong>data scientist</strong> or
-            <strong>analyst</strong>. I know that I will enjoy applying my
-            scientific, statistical, programming and communication skills
-            to new and interesting problems.
-            </p>
-
-            <p>
-            <strong>Are you looking for someone like me?</strong> Don't be
-            shy, <a href=#contact>drop me a note</a>.
+            industry as a <strong>data scientist</strong>, or similar position.
+            Are you looking for someone like me?
+            <strong><a href=#contact>Drop me a note</a></strong> I'd love to talk.
             </p>
         </div>
       </div> <!-- end row -->
+    </div> <!-- end spaced -->
 
     <!-- PROJECTS -->
-    <h1 id="projects"><i class="fa fa-gear"></i> projects</h1><br /><br />
+    <div class="spaced">
+    <h1 id="projects">projects</h1><br /><br />
 
+      <!-- blog: sandbox -->
+      <div class="row">
+        <div class="hidden-xs hidden-sm col-md-2">
+          <i class="fa fa-pencil fa-5x"></i>
+        </div>
+        <div class="col-xs-12 col-md-10">
+          <p>
+          <a target="_blank" href="http://chrisstrelioff.ws/sandbox/" title="Link to sandbox">
+          <i class="fa fa-link fa-fw"></i> <strong>sandbox</strong></a>
+          <br />
+          </p>
+
+          <p>
+          This is my current blog, where I discuss topics ranging from Ubuntu and
+          Python to Bayesian and machine learning methods.  Want to install R on
+          Ubunut 14.04?  How about learning about pip and virtualenv for managing
+          projects and package installation with Python? I have also started a
+          series of posts about Bayesian methods, staring with the basics--
+          <a target="_blank" href="http://chrisstrelioff.ws/sandbox/tags/bayesian.html" title="Post tagged with Bayesian.">see here for more.</a>
+          These posts will eventually move to applications in Python
+          and R. So, stay tuned.
+          </p>
+        </div>
+      </div> <!-- end row -->
+
+      <!-- blog: livesoncoffee -->
+      <br /><br />
+      <div class="row">
+        <div class="hidden-xs hidden-sm col-md-2">
+          <i class="fa fa-coffee fa-5x"></i>
+        </div>
+        <div class="col-xs-12 col-md-10">
+          <p>
+          <a target="_blank" href="http://livesoncoffee.wordpress.com" title="Link to livesoncoffee">
+          <i class="fa fa-link fa-fw"></i> <strong>livesoncoffee</strong></a>
+          <br />
+          </p>
+
+          <p>
+          This was my blog at wordpress between 2012 an 2014, covering topics
+          related to using Ubuntu 12.04 for scientific computing.  During this
+          time the site has attracted <strong>almost 50,000 views</strong>
+          (as of Sep 2014) and now averages 100 views per day.  Not bad for a
+          little blog about installing Python, R and vim on Ubuntu 12.04!
+          </p>
+        </div>
+      </div> <!-- end row -->
+    </div> <!-- end spaced, project -->
 
     <!-- PUBLICATIONS -->
-    <h1 id="publications"><i class="fa fa-file"></i> publications</h1><br /><br />
+    <div class="spaced">
+    <h1 id="publications">publications</h1><br /><br />
 
       <!-- paper: bsihp -->
       <div class="row">
@@ -348,40 +414,29 @@
           </p>
         </div>
       </div> <!-- end row -->
+    </div> <!-- end spaced, publications -->
     
     <!-- CONTACT ME -->
-    <br /><br />
-    <h1 id="contact"><i class="fa fa-envelope"></i> contact me</h1><br /><br />
+    <div class="spaced">
+    <h1 id="contact">contact me</h1><br /><br />
 
-    <div class="row">
-      <p>
-      You can email me at 
-      <script type="text/javascript" language="javascript">
-      <!--
-      // Email obfuscator script 2.1 by Tim Williams, University of Arizona
-      // Random encryption key feature by Andrew Moulden, Site Engineering Ltd
-      // This code is freeware provided these four comment lines remain intact
-      // A wizard to generate this code is at http://www.jottings.com/obfuscator/
-      { coded = "kACmj.j3CMSm0vv@HDgmS.k0D"
-      key = "mlKhrk3OW9w4TngRQ0UGE1jvMDS6ACZxd5y8Bi7HbuctJqLIVzXaYFo2pPNsfe"
-      shift=coded.length
-      link=""
-      for (i=0; i<coded.length; i++) {
-          if (key.indexOf(coded.charAt(i))==-1) {
-          ltr = coded.charAt(i)
-          link += (ltr)
-      }
-      else {     
-          ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
-          link += (key.charAt(ltr))
-          }
-      }   
-      document.write("<strong>" + link + "</strong>.")
-      }
-      //-->
-      </script><noscript>Sorry, you need Javascript on to email me.</noscript>
-      </p>
-    </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <p>
+          You can find me online in a variety of places. However, if just want to
+          contact me, <strong>email is the way to go.</strong>
+          </p>
+
+          <p>
+          <a href="mailto:chris.strelioff#@gmail.com"><i class="fa fa-envelope fa-lg"></i> chris.strelioff@gmail.com</a><br /><br />
+          <a target="_blank" href="https://github.com/cstrelioff"><i class="fa fa-github fa-lg"></i> github</a><br /><br />
+          <a target="_blank" href="http://www.last.fm/user/livesoncoffee"><i class="fa fa-lastfm-square fa-lg"></i> lastfm</a><br /><br />
+          <a target="_blank" href="http://www.linkedin.com/in/cstrelioff"><i class="fa fa-linkedin-square fa-lg"></i> linkedin</a><br /><br />
+          <a target="_blank" href="https://twitter.com/cstrelioff"><i class="fa fa-twitter-square fa-lg"></i> twitter</a><br /><br />
+          </p>
+        </div>
+      </div>
+    </div><!-- end spaced, contact me -->
 
     </div> 
     <!-- 
