@@ -1,0 +1,182 @@
+header, section, article, aside, footer, ul, li, p {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#fullpage {
+    max-width: 62em;
+    margin: auto;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+header, footer {
+    padding: 10px 0em;
+    margin: 0 5% 10px;
+}
+
+header {
+    border-bottom: 1px solid #111;
+}
+
+footer {
+    border-top: 1px solid #111;
+}
+
+header ul, li {
+    display: inline;
+}
+
+nav {
+    font-size: 1.5em;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    padding: 10px 0em;
+    margin: 0 5% 10px;
+    overflow: hidden;
+}
+
+section i {
+    margin: 0 5px 10px 0;
+}
+
+section ul {
+    list-style: initial;
+    margin: initial;
+    padding: 0 0 0 40px;
+}
+
+section li {
+    display: list-item;
+    line-height: 2em;
+}
+
+article {
+    padding: 10px 0em;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+article img {
+    max-width: 100%;
+    float: right;
+    padding-left: 3%;
+    padding-bottom: 10px;
+}
+
+.article-img-left {
+    width: 250px;
+    float: left;
+    padding-right: 3%;
+    padding-bottom: 10px;
+}
+
+aside {
+    border: 1px solid #111; 
+    padding: 10px 1em;
+    margin: 0em;
+/*
+    background-color: lightgrey;
+*/
+    overflow: hidden;
+}
+
+/* 
+ *    genertal tags 
+ */
+
+h1 { 
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+h1, h2, h3{
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: olive;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    color: darkseagreen;
+}
+
+p { 
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 0 0 10px 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-weight: bold;
+    font-style: italic;
+}
+
+i {
+    margin: 0 5px;
+}
+
+.iright {
+    margin: 0 5px 0 0;
+    padding: 0;
+}
+
+@media only screen and (min-width: 38em) {
+    section {
+        width: 90%;
+    }
+    article  {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+    }
+    aside {
+        width: 28%;
+        float: left;
+        margin-right: 0;
+    }
+    footer {
+        clear: both;
+    }
+}
+
+@media only screen and (max-width: 38em) {
+    article img {
+            width: auto;
+            float: none;
+            padding-left: 0;
+    }
+
+    .article-img-left {
+        float: none;
+        padding-right: 0;
+    }
+}
