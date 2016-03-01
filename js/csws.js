@@ -5,9 +5,6 @@
  * Distributed under terms of the MIT license.
  */
 
-window.onload = function () {
-    set_email();
-}
 
 function set_email() {
     var os = 42;
@@ -23,3 +20,34 @@ function set_email() {
     a_email.setAttribute("href", cs_str);
 }
 
+$(document).ready(function () {
+  var scroll_time = 1500;
+  
+  set_email();
+
+  // Set click listeners for smooth scroll
+  $("#navbar-title").click(function(event) {
+    event.preventDefault();
+  
+    $('html, body').animate({
+      scrollTop: 0
+    }, scroll_time);
+  });
+
+  $("#link-publications").click(function(event) {
+    event.preventDefault();
+  
+    $('html, body').animate({
+      scrollTop: $("#publications").offset().top
+    }, scroll_time);
+  });
+  
+  $("#link-projects").click(function(event) {
+    event.preventDefault();
+  
+    $('html, body').animate({
+      scrollTop: $("#projects").offset().top
+    }, scroll_time);
+  });
+
+});

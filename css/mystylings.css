@@ -1,0 +1,57 @@
+body {
+  /* increase default font-size of 12px to 12pt */
+  font-size: 12pt;
+  margin-top: 70px; 
+}
+
+footer {
+  padding: 20px 0px;
+  background: #3e3f3a;
+  color: #ffffff;
+}
+
+h1 {
+  color: #3e3f3a;
+  margin: 30px 0px 15px 0px;
+}
+
+h2 {
+  margin: 10px 0px;
+}
+
+.my-image {
+  padding: 10px 0px;
+  max-height: 400px;
+}
+
+.social-networks {
+  margin-top: 10px;
+}
+
+.proj-column {
+  min-height: 200px;
+}
+
+
+.pub-image {
+  max-width: 90%;
+  max-height: 400px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+#about-me {
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+#projects {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#publications {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
