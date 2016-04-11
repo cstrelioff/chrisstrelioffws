@@ -6,13 +6,34 @@ var proj_data = {
      url: "http://chrisstrelioff.ws/sandbox/",
      dates: "2014 - current",
      description: [
-       "This is my current blog, where I discuss a variety of computing and ",
-       "programming topics including Ubuntu Linux, vim, python, ",
-       "javascript, Bayesian inference and machine learning techniques. Many ",
-       "of the posts have accompanying ",
-       "<strong><a target=\"_blank\"href=\"https://gist.github.com/cstrelioff\">gists</a></strong> ",
-       "with complete code for the examples presented.  As of late 2015 ",
-       "this little blog is getting about 7 000 sessions (~6 000 users) per month." 
+       "This is my current blog, where I discuss a variety of computing ",
+       "topics including Ubuntu Linux, vim, python and javascript as well as ",
+       "science and statistics material like Bayesian inference and machine ",
+       "learning techniques. Many of the posts have accompanying ",
+       "<strong><a target=\"_blank\"href=\"https://gist.github.com/cstrelioff\">gists</a></strong>, ",
+       "which contain code for the example discussed."
+      ]
+    },
+    {id: "project-vizdiv",
+     name: "vizdiv",
+     url: "http://chrisstrelioff.ws/vizdiv/",
+     dates: "2015 - current",
+     description: [
+       "As the name might suggest to you, this url is a place to post my ",
+       "experiments with web-oriented visualization using html, css, ",
+       "javascript, svg etc. All examples have code ",
+       "available at github."
+      ]
+    },
+    {id: "project-soundroom",
+     name: "sound-room",
+     url: "http://chrisstrelioff.ws/sound-room/",
+     dates: "2016 - current",
+     description: [
+       "A collection of sound and music related experiments. At this point ",
+       "I'm mostly focused on playing with the web audio api -- making sound ",
+       "with the browser and building html/css/js tools for visualizing and ",
+       "interacting with sound -- get in touch if you are interested! "
       ]
     },
     {id: "project-conjugate",
@@ -26,17 +47,6 @@ var proj_data = {
        "distributions with conjugate priors, the posteriors are also analytic ",
        "and no MCMC is needed. If you're interested and/or would like to help ",
        "out please contact me -- links above."
-      ]
-    },
-    {id: "project-vizdiv",
-     name: "vizdiv",
-     url: "http://chrisstrelioff.ws/vizdiv/",
-     dates: "2015 - current",
-     description: [
-       "As the name might suggest to you, this url is a place to post my ",
-       "experiments with web-oriented visualization using html, css, ",
-       "javascript, svg etc. All examples have code ",
-       "available at github."
       ]
     },
     {id: "project-livesoncoffee",
